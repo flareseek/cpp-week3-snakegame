@@ -236,8 +236,8 @@ void game() {
       1. 테두리 만들기
       2. 뱀 움직이거나 몸 추가
       3. blank field 채우기
-      3. 먹이 생성
-      4. 스코어 출력
+      4. 먹이 생성
+      5. 스코어 출력
     */
     drawBoardBorder();
     snakeController();
