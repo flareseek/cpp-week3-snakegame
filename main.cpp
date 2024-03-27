@@ -214,6 +214,7 @@ void game() {
       console::draw(getCentorXPoint(text), BOARD_SIZE / 2, text);
       console::draw(getCentorXPoint(TRY_TEXT), BOARD_SIZE / 2 + 1, TRY_TEXT);
       console::wait();
+      continue;
     }
 
     if (isCollision() || snakeBodyLength == FIELD_SIZE) {
