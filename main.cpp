@@ -254,8 +254,3 @@ int main() {
   game();
   return 0;
 }
-
-//1차원 배열에 0~bodylength 까지 저장
-//todo: 성공 조건 만들기  / fix
-// bodyLength 4 일때 ...? / fix
-// 1개일때 방향 조절 / fix
